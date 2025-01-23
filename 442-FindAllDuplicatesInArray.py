@@ -3,12 +3,9 @@
 ### Must run in O(n) time and use constant extra space.
 
 from typing import List, Optional
-
-
-
 class Solution:
     # fxn will take in a list of ints & return a smaller one
-    def findDuplicates(nums: List[int]) -> List[int]:
+    def findDuplicates(nums: List[int]) -> Optional[List[int]]:
         # initalize empty array to store duplicate nums
         ans = []
         # iterate over each num in array
