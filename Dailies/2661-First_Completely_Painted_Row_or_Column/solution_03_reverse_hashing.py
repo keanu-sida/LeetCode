@@ -30,3 +30,8 @@ class Solution:
             result = min(result, last_element_index)
 
         return result
+    
+# Time Complexity:
+    # Time complexity is O(2k) since the rows and columns are each iterated upon twice, once to check for earliest row to be painted and again for the earliest column.
+# Space Complexity:
+    # Space complexity is O(k) since we create a new hashmap of size k to assign each number to its index in the 
